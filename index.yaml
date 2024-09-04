@@ -3,7 +3,32 @@ entries:
   kubernetes-ingress-controller:
   - apiVersion: v2
     appVersion: 0.12.2
-    created: "2024-09-03T12:37:00.019409468-05:00"
+    created: "2024-09-04T17:30:13.059869412Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Kubernetes ingress controller built using ngrok.
+    digest: f478924597e8fbeae5832086e3e8bda663de031e788cca0dc8f5db48bd88ec58
+    home: https://ngrok.com
+    icon: https://charts.ngrok.com/assets/ngrok-favicon.svg
+    keywords:
+    - ngrok
+    - networking
+    - ingress
+    - edge
+    - api gateway
+    name: kubernetes-ingress-controller
+    sources:
+    - https://github.com/ngrok/kubernetes-ingress-controller
+    urls:
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.14.3.tgz
+    version: 0.14.3
+  - apiVersion: v2
+    appVersion: 0.12.2
+    created: "2024-08-30T08:42:01.389747Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -24,11 +49,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.14.2.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.14.2.tgz
     version: 0.14.2
   - apiVersion: v2
     appVersion: 0.12.1
-    created: "2024-09-03T12:37:00.017146698-05:00"
+    created: "2024-08-13T16:33:54.415828381Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -49,11 +74,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.14.1.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.14.1.tgz
     version: 0.14.1
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2024-09-03T12:37:00.014910237-05:00"
+    created: "2024-06-03T15:32:45.382976825Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -74,11 +99,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.14.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.14.0.tgz
     version: 0.14.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2024-09-03T12:37:00.010305559-05:00"
+    created: "2024-05-24T02:16:24.434874744Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -99,11 +124,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.13.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.13.0.tgz
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.10.4
-    created: "2024-09-03T12:37:00.006150782-05:00"
+    created: "2024-04-23T15:39:33.331451752Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -124,11 +149,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.12.4.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.12.4.tgz
     version: 0.12.4
   - apiVersion: v2
     appVersion: 0.10.3
-    created: "2024-09-03T12:37:00.004054192-05:00"
+    created: "2024-03-15T16:59:16.861565357Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -149,11 +174,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.12.3.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.12.3.tgz
     version: 0.12.3
   - apiVersion: v2
     appVersion: 0.10.2
-    created: "2024-09-03T12:37:00.002013778-05:00"
+    created: "2024-02-27T20:40:35.606446409Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -174,11 +199,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.12.2.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.12.2.tgz
     version: 0.12.2
   - apiVersion: v2
     appVersion: 0.10.1
-    created: "2024-09-03T12:36:59.998440398-05:00"
+    created: "2023-10-20T17:04:38.37374598Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -199,11 +224,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.12.1.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.12.1.tgz
     version: 0.12.1
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2024-09-03T12:36:59.994620286-05:00"
+    created: "2023-10-16T20:22:37.570834739Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -224,11 +249,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.12.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.12.0.tgz
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2024-09-03T12:36:59.990397342-05:00"
+    created: "2023-09-11T13:14:31.535483907Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -249,11 +274,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.11.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2024-09-03T12:36:59.986365925-05:00"
+    created: "2023-06-29T02:14:11.348149509Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -274,11 +299,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.11.0-rc.1.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.11.0-rc.1.tgz
     version: 0.11.0-rc.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2024-09-03T12:36:59.982010563-05:00"
+    created: "2023-06-13T19:31:01.052999001Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 1680edec47078e6da75ce40d0b210e031773410a48a7047c5b2daaf5aea91c29
     home: https://ngrok.com
@@ -293,11 +318,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.10.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2024-09-03T12:37:00.025876377-05:00"
+    created: "2023-05-12T16:30:14.160875631Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: fda92f04d5c3125c746ffe656a7757ab76ed8f1538b77102fc27f5f268d282aa
     home: https://ngrok.com
@@ -312,11 +337,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.9.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-09-03T12:37:00.023801588-05:00"
+    created: "2023-04-03T16:06:50.01325518Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 91416f358c15f55a85b63f58ab301071b1248e00df305228eb2de7c7b83f1daf
     home: https://ngrok.com
@@ -331,11 +356,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.8.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2024-09-03T12:37:00.022778756-05:00"
+    created: "2023-03-22T05:42:56.27841948Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 56c627ee4b77825148581f9571aacc59c26ce18076e39c272a28823298accb27
     home: https://ngrok.com
@@ -350,11 +375,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.7.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-09-03T12:37:00.021777424-05:00"
+    created: "2023-03-16T05:29:17.9532252Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 7ab56a787cbe1354a3c940b7dce1ceec17aaac34246ea92033828a3aac7f50dc
     home: https://ngrok.com
@@ -369,11 +394,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.6.1.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-09-03T12:37:00.020943115-05:00"
+    created: "2023-03-01T01:15:44.769792437Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 72f818978d2e2dd48538d95cd3477ba925b524dd8266d4e343314fd233720dc1
     home: https://ngrok.com
@@ -388,11 +413,11 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.6.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-09-03T12:37:00.020168206-05:00"
+    created: "2023-01-17T21:55:09.49043895Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 3db10f522d367a28e776a5852a21cbcaa974a07bf4ad8dd22e20a6cb8c4d5457
     home: https://ngrok.com
@@ -407,12 +432,12 @@ entries:
     sources:
     - https://github.com/ngrok/kubernetes-ingress-controller
     urls:
-    - kubernetes-ingress-controller-0.5.0.tgz
+    - https://charts.ngrok.com/kubernetes-ingress-controller-0.5.0.tgz
     version: 0.5.0
   ngrok-ingress-controller:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-09-03T12:37:00.029226129-05:00"
+    created: "2023-01-06T17:25:43.340333606Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: bb807b0d1944bab72dca7d0845c92c32b2d49dd139195ac8958041573422a406
     home: https://ngrok.com
@@ -427,11 +452,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.4.0.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-09-03T12:37:00.028584129-05:00"
+    created: "2022-12-28T19:41:20.480900181Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 801ce269d7210627c20f00afbac6595a355b2892790119a89c6b3d5ccf4d90eb
     home: https://ngrok.com
@@ -446,11 +471,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.3.1.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-09-03T12:37:00.028077863-05:00"
+    created: "2022-12-27T20:22:39.74679125Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 9aaeab6595aa69b570aa7b8995fffe4a0de0e717fb55a289518fa827e114019f
     home: https://ngrok.com
@@ -465,11 +490,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.3.0.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-03T12:37:00.027556809-05:00"
+    created: "2022-12-19T22:15:05.27915866Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 586bd9f5db6aa52c5898023e439d70dd0290d86588b53df2de128aa41ce799e3
     home: https://ngrok.com
@@ -484,11 +509,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.2.0.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-03T12:37:00.027044511-05:00"
+    created: "2022-10-18T19:14:54.763630215Z"
     description: A Kubernetes ingress controller built using ngrok.
     digest: 4551cde6c5465355a6c881a48c7b3a3537f766817b007d98b8da9976640b4fe4
     home: https://ngrok.com
@@ -503,11 +528,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.1.2.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-03T12:37:00.026634474-05:00"
+    created: "2022-10-10T21:06:04.341631508Z"
     description: A Kubernetes ingress controller built using Ngrok.
     digest: ef73c580abc111798081a36bc154f0590b58b0601442c1a2602647dc313f4944
     home: https://ngrok.com
@@ -522,11 +547,11 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.1.1.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-03T12:37:00.026272908-05:00"
+    created: "2022-10-06T20:32:21.494848009Z"
     description: A Kubernetes ingress controller built using Ngrok.
     digest: c9b93a32917c45d6abcebec587441672f28dfbf673e6212c1b91e7f9eadddaf7
     home: https://ngrok.com
@@ -541,6 +566,6 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-ingress-controller
     urls:
-    - ngrok-ingress-controller-0.1.0.tgz
+    - https://charts.ngrok.com/ngrok-ingress-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-03T12:36:59.978100924-05:00"
+generated: "2024-09-04T17:30:13.060008983Z"
