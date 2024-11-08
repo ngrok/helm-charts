@@ -595,6 +595,31 @@ entries:
     version: 0.1.0
   ngrok-operator:
   - apiVersion: v2
+    appVersion: 0.13.1
+    created: "2024-11-08T15:20:51.121009881-06:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: The official ngrok Kubernetes Operator.
+    digest: 6890ca44c473a4e499e9a80863785f6947f8974199417241618d8a6ef46fd336
+    home: https://ngrok.com
+    icon: https://charts.ngrok.com/assets/ngrok-favicon.svg
+    keywords:
+    - ngrok
+    - networking
+    - ingress
+    - edge
+    - api gateway
+    name: ngrok-operator
+    sources:
+    - https://github.com/ngrok/ngrok-operator
+    urls:
+    - https://charts.ngrok.com/ngrok-operator-0.16.0-rc.2.tgz
+    version: 0.16.0-rc.2
+  - apiVersion: v2
     appVersion: 0.13.0
     created: "2024-11-05T15:23:36.00137283-06:00"
     dependencies:
@@ -619,4 +644,4 @@ entries:
     urls:
     - ngrok-operator-0.16.0-rc.1.tgz
     version: 0.16.0-rc.1
-generated: "2024-11-05T15:23:35.996920293-06:00"
+generated: "2024-11-08T15:20:51.117086274-06:00"
