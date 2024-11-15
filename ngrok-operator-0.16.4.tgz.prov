@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.13.7
+dependencies:
+- - name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+  - bitnami-common
+  version: 2.x.x
+description: The official ngrok Kubernetes Operator.
+home: https://ngrok.com
+icon: https://charts.ngrok.com/assets/ngrok-favicon.svg
+keywords:
+- - ngrok
+- - networking
+- - ingress
+- - edge
+- - api gateway
+name: ngrok-operator
+sources:
+- - https://github.com/ngrok/ngrok-operator
+version: 0.16.4
+
+...
+files:
+  ngrok-operator-0.16.4.tgz: sha256:58b6a0da2e6ea586ca05a9b76fef84f1de4c3b7160a91cc45884104e18fd70c9
+-----BEGIN PGP SIGNATURE-----
+
+wl4EAREKABAFAmc3oK4JEFlKXHq9WnqKAAAlrgEALXRh1AI2DzN9szfS936NPSX8
+8nyeE6dXlThHdcF6A14BAGDtKY0UDWKJ5vwDzKme1MjaUDtvgbUKyPnlgjlnVwV5
+=avuB
+-----END PGP SIGNATURE-----
