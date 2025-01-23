@@ -17,8 +17,6 @@ owners: # (optional, used to claim repository ownership)
     email: erik@ngrok.com
   - name: stacks
     email: stacks@ngrok.com
-  - name: hkatz
-    email: hkatz@ngrok.com
 
 # ignore the old name ngrok-ingress-controller,
 # the current name is ngrok-operator
