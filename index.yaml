@@ -617,7 +617,7 @@ entries:
     sources:
     - https://github.com/ngrok/ngrok-operator
     urls:
-    - charts.ngrok.com/ngrok-operator-0.17.0-rc.3.tgz
+    - https://charts.ngrok.com/ngrok-operator-0.17.0-rc.3.tgz
     version: 0.17.0-rc.3
   - apiVersion: v2
     appVersion: 0.14.2-endpoints-alpha
