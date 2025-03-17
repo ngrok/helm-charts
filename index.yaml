@@ -594,9 +594,6 @@ entries:
   #   - https://charts.ngrok.com/ngrok-ingress-controller-0.1.0.tgz
   #   version: 0.1.0
   ngrok-operator:
-apiVersion: v1
-entries:
-  ngrok-operator:
   - apiVersion: v2
     appVersion: 0.15.1
     created: "2025-03-17T17:05:30.914892026-05:00"
