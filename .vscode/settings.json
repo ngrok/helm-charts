@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/*.tgz": true,
+        "**/*.tgz.prov": true,
+    }
+}
